@@ -1,6 +1,6 @@
 'use client'
 
-import { Check, Star, Zap } from 'lucide-react'
+import { Check, Star, Zap, CreditCard, Smartphone, Globe, Shield } from 'lucide-react'
 
 export default function Pricing() {
   const plans = [
@@ -173,6 +173,84 @@ export default function Pricing() {
               <button className="bg-white text-green-600 font-semibold py-2 px-4 rounded-lg hover:bg-gray-100 transition-colors">
                 Contact Sales
               </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Payment Gateway Integration */}
+        <div className="mt-16">
+          <div className="bg-gradient-to-br from-gray-50 to-primary-50 rounded-2xl p-8 border border-gray-200">
+            <div className="text-center mb-8">
+              <div className="flex items-center justify-center space-x-2 mb-4">
+                <CreditCard className="h-8 w-8 text-primary-600" />
+                <h3 className="text-3xl font-bold text-gray-900">Payment Gateway Integration</h3>
+              </div>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Need payment processing for your landing page? We can integrate popular payment gateways used in Bangladesh.
+              </p>
+            </div>
+
+            {/* Payment Gateway Options */}
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-8">
+              <div className="bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow text-center">
+                <div className="bg-green-100 p-3 rounded-lg mx-auto w-fit mb-3">
+                  <Smartphone className="h-6 w-6 text-green-600" />
+                </div>
+                <h4 className="font-semibold text-gray-900">bKash</h4>
+                <p className="text-xs text-gray-500 mt-1">Mobile Payment</p>
+              </div>
+
+              <div className="bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow text-center">
+                <div className="bg-blue-100 p-3 rounded-lg mx-auto w-fit mb-3">
+                  <Smartphone className="h-6 w-6 text-blue-600" />
+                </div>
+                <h4 className="font-semibold text-gray-900">Rocket</h4>
+                <p className="text-xs text-gray-500 mt-1">Mobile Banking</p>
+              </div>
+
+              <div className="bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow text-center">
+                <div className="bg-purple-100 p-3 rounded-lg mx-auto w-fit mb-3">
+                  <Globe className="h-6 w-6 text-purple-600" />
+                </div>
+                <h4 className="font-semibold text-gray-900">Stripe</h4>
+                <p className="text-xs text-gray-500 mt-1">Global Payment</p>
+              </div>
+
+              <div className="bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow text-center">
+                <div className="bg-blue-100 p-3 rounded-lg mx-auto w-fit mb-3">
+                  <Globe className="h-6 w-6 text-blue-600" />
+                </div>
+                <h4 className="font-semibold text-gray-900">PayPal</h4>
+                <p className="text-xs text-gray-500 mt-1">International</p>
+              </div>
+
+              <div className="bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow text-center">
+                <div className="bg-orange-100 p-3 rounded-lg mx-auto w-fit mb-3">
+                  <Shield className="h-6 w-6 text-orange-600" />
+                </div>
+                <h4 className="font-semibold text-gray-900">SSL Commerz</h4>
+                <p className="text-xs text-gray-500 mt-1">Local Gateway</p>
+              </div>
+            </div>
+
+            {/* CTA Section */}
+            <div className="text-center">
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 max-w-2xl mx-auto">
+                <h4 className="text-xl font-bold text-gray-900 mb-2">
+                  Ready to Accept Payments?
+                </h4>
+                <p className="text-gray-600 mb-4">
+                  Contact us for pricing based on your specific requirements. We&apos;ll help you choose the best payment solution for your business.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                  <button className="btn-primary">
+                    Get Quote
+                  </button>
+                  <button className="btn-secondary">
+                    Learn More
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
