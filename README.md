@@ -91,9 +91,13 @@ The website is fully responsive with breakpoints:
 ## 🚀 Deployment
 
 ### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy with zero configuration
+1. **One-Click Deploy:** [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Atiqul-Imon/fitnesspro)
+2. **Manual Deploy:**
+   - Go to [Vercel Dashboard](https://vercel.com/dashboard)
+   - Click "New Project"
+   - Import your GitHub repository: `Atiqul-Imon/fitnesspro`
+   - Vercel will auto-detect Next.js and deploy
+3. **Custom Domain:** Add your domain in Vercel dashboard
 
 ### GitHub Pages
 ```bash
