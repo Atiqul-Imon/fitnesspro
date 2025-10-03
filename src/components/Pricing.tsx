@@ -31,8 +31,7 @@ export default function Pricing() {
         'Nutrition Consultation',
         'All Group Classes',
         'Sauna & Steam Room',
-        'Guest Passes (2/month)',
-        '3-5 Days Fast Delivery'
+        'Guest Passes (2/month)'
       ],
       color: 'from-primary-500 to-primary-600',
       popular: true
