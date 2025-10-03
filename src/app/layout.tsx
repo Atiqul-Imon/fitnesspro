@@ -1,20 +1,20 @@
 import type { Metadata, Viewport } from 'next'
-import { Roboto, Playfair_Display } from 'next/font/google'
+import { Roboto, Source_Serif_4 } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import WhatsAppWidget from '@/components/WhatsAppWidget'
 
-const roboto = Roboto({ 
+const roboto = Roboto({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700', '800', '900'],
   variable: '--font-roboto'
 })
 
-const playfair = Playfair_Display({ 
+const sourceSerif = Source_Serif_4({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800', '900'],
-  variable: '--font-playfair'
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-source-serif'
 })
 
 export const metadata: Metadata = {
@@ -53,7 +53,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
       </head>
-              <body className={`${roboto.variable} ${playfair.variable} w-full overflow-x-hidden`}>
+              <body className={`${roboto.variable} ${sourceSerif.variable} w-full overflow-x-hidden`}>
                 <Header />
                 <main className="w-full">{children}</main>
                 <Footer />

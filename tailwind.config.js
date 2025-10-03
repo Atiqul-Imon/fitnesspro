@@ -53,11 +53,11 @@ module.exports = {
           900: '#7c2d12',
         },
       },
-      fontFamily: {
-        sans: ['var(--font-roboto)', 'system-ui', 'sans-serif'],
-        display: ['var(--font-roboto)', 'system-ui', 'sans-serif'],
-        body: ['var(--font-playfair)', 'serif'],
-      },
+              fontFamily: {
+                sans: ['var(--font-roboto)', 'system-ui', 'sans-serif'],
+                display: ['var(--font-roboto)', 'system-ui', 'sans-serif'],
+                body: ['var(--font-source-serif)', 'Georgia', 'serif'],
+              },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
         'slide-up': 'slideUp 0.5s ease-out',
