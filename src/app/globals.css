@@ -72,5 +72,25 @@
   .animation-delay-3000 {
     animation-delay: 3000ms;
   }
+  
+  /* WhatsApp Widget Animations */
+  @keyframes slideUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+  
+  .animate-bounce-slow {
+    animation: bounce 2s infinite;
+  }
 }
 

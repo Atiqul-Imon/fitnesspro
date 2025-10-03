@@ -3,6 +3,7 @@ import { Roboto, Playfair_Display } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import WhatsAppWidget from '@/components/WhatsAppWidget'
 
 const roboto = Roboto({ 
   subsets: ['latin'],
@@ -52,11 +53,12 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
       </head>
-      <body className={`${roboto.variable} ${playfair.variable} w-full overflow-x-hidden`}>
-        <Header />
-        <main className="w-full">{children}</main>
-        <Footer />
-      </body>
+              <body className={`${roboto.variable} ${playfair.variable} w-full overflow-x-hidden`}>
+                <Header />
+                <main className="w-full">{children}</main>
+                <Footer />
+                <WhatsAppWidget />
+              </body>
     </html>
   )
 }

@@ -167,6 +167,39 @@ export default function Footer() {
         </div>
       </div>
 
+      {/* Pixel Forge Promotion */}
+      <div className="border-t border-gray-800">
+        <div className="container-custom py-8">
+          <div className="bg-gradient-to-r from-primary-900 to-secondary-900 rounded-2xl p-6 text-center">
+            <h3 className="text-xl font-bold text-white mb-2">
+              🚀 Need a Custom Landing Page Like This?
+            </h3>
+            <p className="text-gray-300 mb-4 max-w-2xl mx-auto">
+              Get your own professional landing page designed and developed by our expert team. 
+              Perfect for fitness centers, gyms, personal trainers, and wellness businesses.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Link 
+                href="https://pixelforgebd.com/landing-pages" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-primary-900 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition-colors inline-flex items-center"
+              >
+                View Landing Page Templates
+              </Link>
+              <Link 
+                href="https://pixelforgebd.com" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-2 border-white text-white font-semibold py-3 px-6 rounded-lg hover:bg-white hover:text-primary-900 transition-colors"
+              >
+                Contact Pixel Forge
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Bottom Bar */}
       <div className="border-t border-gray-800">
         <div className="container-custom py-6">
@@ -174,16 +207,29 @@ export default function Footer() {
             <div className="text-gray-400 text-sm">
               © 2024 FitLife Pro. All rights reserved.
             </div>
-            <div className="flex space-x-6 text-sm">
-              <Link href="#terms" className="text-gray-400 hover:text-primary-400 transition-colors">
-                Terms of Service
-              </Link>
-              <Link href="#privacy" className="text-gray-400 hover:text-primary-400 transition-colors">
-                Privacy Policy
-              </Link>
-              <Link href="#cookies" className="text-gray-400 hover:text-primary-400 transition-colors">
-                Cookie Policy
-              </Link>
+            <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 text-sm">
+              <div className="flex space-x-6">
+                <Link href="#terms" className="text-gray-400 hover:text-primary-400 transition-colors">
+                  Terms of Service
+                </Link>
+                <Link href="#privacy" className="text-gray-400 hover:text-primary-400 transition-colors">
+                  Privacy Policy
+                </Link>
+                <Link href="#cookies" className="text-gray-400 hover:text-primary-400 transition-colors">
+                  Cookie Policy
+                </Link>
+              </div>
+              <div className="text-gray-500 text-xs">
+                Built by{' '}
+                <Link 
+                  href="https://www.pixelforgebd.com" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-400 hover:text-primary-300 transition-colors font-medium"
+                >
+                  Pixel Forge
+                </Link>
+              </div>
             </div>
           </div>
         </div>
