@@ -51,7 +51,7 @@ export default function Features() {
             Why Choose <span className="gradient-text">FitLife Pro</span>?
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-            We're not just a gym - we're your partner in achieving a healthier, stronger, and more confident version of yourself.
+            We&apos;re not just a gym - we&apos;re your partner in achieving a healthier, stronger, and more confident version of yourself.
           </p>
         </div>
 

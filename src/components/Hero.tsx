@@ -26,7 +26,7 @@ export default function Hero() {
                 Today
               </h1>
               <p className="text-sm xs:text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed max-w-lg mx-auto lg:mx-0 px-4 sm:px-0">
-                Join thousands of members who've achieved their fitness goals with our premium training programs, state-of-the-art equipment, and expert guidance.
+                Join thousands of members who&apos;ve achieved their fitness goals with our premium training programs, state-of-the-art equipment, and expert guidance.
               </p>
             </div>
 

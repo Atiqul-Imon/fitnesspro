@@ -65,7 +65,7 @@ export default function Testimonials() {
             What Our <span className="gradient-text">Members Say</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what real members have to say about their transformation journey with us.
+            Don&apos;t just take our word for it. Here&apos;s what real members have to say about their transformation journey with us.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export default function Testimonials() {
 
               {/* Content */}
               <blockquote className="text-gray-700 mb-6 leading-relaxed">
-                "{testimonial.content}"
+                &ldquo;{testimonial.content}&rdquo;
               </blockquote>
 
               {/* Achievement Badge */}

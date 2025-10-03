@@ -95,11 +95,22 @@ The website is fully responsive with breakpoints:
 2. Connect your repository to Vercel
 3. Deploy with zero configuration
 
+### GitHub Pages
+```bash
+npm run build
+npm run export
+# Deploy the 'out' folder to GitHub Pages
+```
+
 ### Other Platforms
 ```bash
 npm run build
 npm start
 ```
+
+### Live Demo
+- **Repository:** https://github.com/Atiqul-Imon/fitnesspro
+- **Live Site:** [Deploy to Vercel for instant preview]
 
 ## 📊 Performance
 

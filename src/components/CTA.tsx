@@ -17,7 +17,7 @@ export default function CTA() {
                 <span className="block text-accent-200 drop-shadow-lg">Your Life?</span>
               </h2>
               <p className="text-base sm:text-lg lg:text-xl text-white/90 leading-relaxed drop-shadow-md">
-                Join thousands of members who've achieved their fitness goals. Start your journey today with our free trial and expert guidance.
+                Join thousands of members who&apos;ve achieved their fitness goals. Start your journey today with our free trial and expert guidance.
               </p>
             </div>
 

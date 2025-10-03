@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Roboto, Playfair_Display } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
@@ -32,8 +32,14 @@ export const metadata: Metadata = {
     title: 'FitLife Pro - Premium Fitness & Training Center',
     description: 'Transform your body and mind at FitLife Pro. Premium fitness center offering personal training, group classes, and state-of-the-art equipment.',
   },
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
   robots: 'index, follow',
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 }
 
 export default function RootLayout({
